@@ -3,8 +3,12 @@ import Post from '../components/Post'
 
 const Home = () => {
   return (
-    <div className='dark:text-white'>
-      <h1>Home</h1>
+    <div className='post-wrapper pt-10 grid gap-y-5 px-3'>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
+      <Post/>
       <Post/>
     </div>
   )

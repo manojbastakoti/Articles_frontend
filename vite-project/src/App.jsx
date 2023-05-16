@@ -8,7 +8,7 @@ import Register from './pages/Register';
 
  function App() {
   return (
-<div className="mainwrapper bg-[#F0EEED] h-screen w-screen dark:bg-[#0F172A]">
+<div className="mainwrapper bg-[#F0EEED] min-h-screen w-screen dark:bg-[#0F172A]">
 <main className='max-w-screen-md mx-auto py-4'>
 <Routes>
 <Route path='/' element={<Common/>}>
